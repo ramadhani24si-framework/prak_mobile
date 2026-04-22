@@ -1,4 +1,4 @@
-package com.example.suci_apps.pertemuan_5
+package com.example.suciapps.pertemuan_5
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,8 +7,8 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import com.example.sucii_apps.R
-import com.example.sucii_apps.databinding.ActivityFifthBinding
+import com.example.suciapps.R
+import com.example.suciapps.databinding.ActivityFifthBinding
 
 class FifthActivity : AppCompatActivity() {
     private lateinit var binding: ActivityFifthBinding

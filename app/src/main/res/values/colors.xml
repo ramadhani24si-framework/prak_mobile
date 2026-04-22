@@ -2,6 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
     <color name="bg">#2EBA9C</color>
     <color name="comel">#82CEDB</color>
+
+    <color name="primary_start">#2EBA9C</color>
+    <color name="primary_end">#1A8F77</color>
 </resources>

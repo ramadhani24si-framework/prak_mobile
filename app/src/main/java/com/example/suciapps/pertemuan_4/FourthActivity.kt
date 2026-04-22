@@ -1,4 +1,4 @@
-package com.example.kerenapps.pertemuan_4
+package com.example.suciapps.pertemuan_4
 
 import android.content.Intent
 import android.os.Bundle
