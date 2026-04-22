@@ -1,4 +1,4 @@
-package com.example.suciapps.
+package com.example.kerenapps
 
 import android.content.Intent
 import android.os.Bundle
