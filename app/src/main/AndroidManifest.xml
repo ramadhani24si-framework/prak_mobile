@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SuciApps">
         <activity
+            android:name=".pertemuan_5.WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pertemuan_5.FifthActivity"
+            android:exported="false" />
+        <activity
             android:name=".pertemuan_4.FourthActivity"
             android:exported="true">
             <intent-filter>
@@ -20,7 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".pertemuan_3.ThirdResultActivity"
             android:exported="false" />
