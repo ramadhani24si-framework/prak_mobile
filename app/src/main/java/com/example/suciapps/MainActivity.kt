@@ -14,6 +14,7 @@ import com.example.suciapps.databinding.ActivityThirdBinding
 import com.example.suciapps.pertemuan_2.SecondActivity
 import com.example.suciapps.pertemuan_3.ThirdResultActivity
 import com.example.suciapps.pertemuan_4.FourthActivity
+import com.example.suciapps.pertemuan_7.SeventhActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 
@@ -36,11 +37,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-
-        binding.btnLogout.setOnClickListener {
-            val intent = Intent(this, AuthActivity::class.java)
-            startActivity(intent)
-        }
         val sharedPref = getSharedPreferences("user_pref", MODE_PRIVATE)
         binding.btnLogout.setOnClickListener {
             MaterialAlertDialogBuilder(this)
@@ -58,14 +54,34 @@ class MainActivity : AppCompatActivity() {
                     dialog.dismiss()
                 }
                 .show()
-            binding.btnToFourth.setOnClickListener {
-                val intent = Intent(this, FourthActivity::class.java)
-                intent.putExtra("name", "Politeknik Caltex Riau")
-                intent.putExtra("asal", "Rumbai")
-                intent.putExtra("usia", 25)
-                startActivity(intent)
-                finish()
-            }
+        }
+        binding.btnToSecond.setOnClickListener {
+            val intent = Intent(this, SeventhActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        binding.btnTothird.setOnClickListener {
+            val intent = Intent(this, SeventhActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        binding.btnToFourth.setOnClickListener {
+            val intent = Intent(this, FourthActivity::class.java)
+            intent.putExtra("name", "Politeknik Caltex Riau")
+            intent.putExtra("asal", "Rumbai")
+            intent.putExtra("usia", 25)
+            startActivity(intent)
+            finish()
+        }
+        binding.btnToFifth.setOnClickListener {
+            val intent = Intent(this, SeventhActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        binding.btnToSeventh.setOnClickListener {
+            val intent = Intent(this, SeventhActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }
