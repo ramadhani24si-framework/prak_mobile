@@ -1,4 +1,4 @@
-package com.example.suciapps.pertemuan_4
+package com.example.suciapps.Home.pertemuan_4
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,10 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.suciapps.R
 import com.example.suciapps.databinding.ActivityFourthBinding
-import com.example.suciapps.databinding.ActivityMainBinding
-import com.example.suciapps.databinding.ActivityThirdBinding
-import com.example.suciapps.pertemuan_2.SecondActivity
-import com.example.suciapps.pertemuan_4.FourthActivity
+import com.example.suciapps.Home.pertemuan_2.SecondActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 

@@ -4,17 +4,13 @@ package com.example.suciapps
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.suciapps.databinding.ActivityMainBinding
-import com.example.suciapps.databinding.ActivityThirdBinding
-import com.example.suciapps.pertemuan_2.SecondActivity
-import com.example.suciapps.pertemuan_3.ThirdResultActivity
-import com.example.suciapps.pertemuan_4.FourthActivity
-import com.example.suciapps.pertemuan_7.SeventhActivity
+import com.example.suciapps.Home.pertemuan_4.FourthActivity
+import com.example.suciapps.Home.pertemuan_7.SeventhActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 
