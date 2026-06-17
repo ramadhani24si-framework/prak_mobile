@@ -14,6 +14,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.suciapps.Data.Api.PhotoApiClient
 import com.example.suciapps.Home.pertemuan_10.TenthActivity
+import com.example.suciapps.Home.pertemuan_13.ThirteenthActivity  // ===== TAMBAHKAN IMPORT INI =====
 import com.example.suciapps.Home.pertemuan_2.SecondActivity
 import com.example.suciapps.Home.pertemuan_3.ThirdActivity
 import com.example.suciapps.Home.pertemuan_4.FourthActivity
@@ -99,6 +100,14 @@ class HomeFragment : Fragment() {
             val intent = Intent(requireContext(), TenthActivity::class.java)
             startActivity(intent)
         }
+
+        // ===== TAMBAHKAN INI =====
+        // Button untuk Pertemuan 13
+        binding.btnToThirteenth.setOnClickListener {
+            val intent = Intent(requireContext(), ThirteenthActivity::class.java)
+            startActivity(intent)
+        }
+
         loadPhoto()
     }
     private fun loadPhoto() {

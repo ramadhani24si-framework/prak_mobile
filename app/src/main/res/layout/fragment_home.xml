@@ -160,6 +160,22 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnToNinth" />
 
+            <!-- ===== TAMBAHKAN BUTTON PERTEMUAN 13 DI SINI ===== -->
+            <Button
+                android:id="@+id/btnToThirteenth"
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="60dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#E17055"
+                android:text="Pertemuan 13"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                app:cornerRadius="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnToTenth" />
+
             <Button
                 android:id="@+id/btnLogout"
                 android:layout_width="wrap_content"
@@ -168,7 +184,7 @@
                 android:text="Logout"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnToTenth" />
+                app:layout_constraintTop_toBottomOf="@+id/btnToThirteenth" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvGallery"
